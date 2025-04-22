@@ -1,0 +1,64 @@
+body {
+  background-color: #6dc785; /* Cor de fundo da página */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Garante que a altura mínima seja da tela */
+}
+
+h1, h2, h3 {
+  color: white; /* Cor do texto no cabeçalho */
+}
+
+header {
+  background-color: #175227; /* Cor do cabeçalho */
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #175227; /* Cor do rodapé */
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0; /* Fixa o rodapé na parte inferior */
+}
+
+button {
+  margin: 10px; /* Espaçamento entre os botões */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  background-color: #ffffff; /* Cor de fundo do botão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+button:hover {
+  background-color: #e0e0e0; /* Cor ao passar o mouse */
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px; /* Espaço acima da tabela */
+  width: 100%; /* Largura total da tabela */
+}
+
+th, td {
+  border: 1px solid #333; /* Borda das células */
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #175227; /* Cor do cabeçalho da tabela */
+  color: white; /* Cor do texto no cabeçalho da tabela */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
